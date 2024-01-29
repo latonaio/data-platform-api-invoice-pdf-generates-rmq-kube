@@ -1,0 +1,60 @@
+{
+	"connection_key": "request",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"api_status_code": 200,
+	"runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+	"business_partner": 201,
+	"service_label": "FUNC_INVOICE_PDF",
+	"api_type": "generates",
+	"InvoiceDocumentHeaderWithItem": [
+		{
+			"InvoiceDocument": 1,
+			"InvoiceDocumentDate": "2024-01-31",
+			"InvoicePeriodStartDate": "2024-01-01",
+			"InvoicePeriodEndDate": "2024-01-31",
+			"BillToParty": 101,
+			"BillToPartyName": "TEST鋼材株式会社",
+			"BillFromParty": 201,
+			"BillFromPartyName": "TEST商事株式会社",
+			"IsExportImport": false,
+			"TotalGrossAmount": 2423850,
+			"TotalTaxAmount": 220350,
+			"TotalNetAmount": 2203500,
+			"TransactionCurrency": "JPY",
+			"Incoterms": "CIF",
+			"PaymentTerms": "0001",
+			"DueCalculationBaseDate": "2024-01-31",
+			"PaymentDueDate": "2024-02-29",
+			"NetPaymentDays": 29,
+			"PaymentMethod": "T",
+			"Contract": 1,
+			"ContractItem": 1
+		}
+	],
+	"InvoiceDocumentItem": [
+		{
+			"InvoiceDocument": 1,
+			"InvoiceDocumentItem": 1,
+			"InvoiceDocumentItemCategory": "INVP",
+			"Product": "SM570TMC-001",
+			"SizeOrDimensionText": "11.00 X 2000.0 X 6000.0",
+			"InvoiceDocumentItemText": "SM570TMC-001",
+			"InvoiceDocumentItemTextByBuyer": "SM570TMC-001",
+			"InvoiceDocumentItemTextBySeller": "SM570TMC-001",
+			"InvoiceQuantity": 1,
+			"InvoiceQuantityUnit": "員数",
+			"InvoiceQuantityInBaseUnit": 1036,
+			"ActualGoodsReceiptDate": "2024-01-25",
+			"ActualGoodsReceiptTime": "08:36:24",
+			"NetAmount": 673400,
+			"TaxAmount": 67340,
+			"GrossAmount": 740740
+		}
+	],
+	"api_schema": "DPFMFuncInvoicePDFGenerates",
+	"accepter": [
+		"Invoice"
+	]
+}
